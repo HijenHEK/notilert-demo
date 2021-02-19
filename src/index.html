@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container f fc">
+        <h2 class="c">default</h2>
+        <div class="row f fw">
+            <input id="timeoutd" type="number" min="0" max="100" placeholder="enter timeout in seconds">
+            <select name="closeable" id="closeabled">
+                <option  value="true">closeable</option>
+                <option  value="false">non closeable</option>
+            </select>
+            <select name="position" id="positiond">
+                <option value="top-right" selected>top-right</option>
+                <option value="top-left">top-left</option>
+                <option value="bottom-right">bottom-right</option>
+                <option value="bottom-left">bottom-left</option>
+            </select>
+        </div>
+        <div class="row f">
+            <button id="default" class="default"> default </button>
+            <button id="success" class="success"> success </button>
+            <button id="danger" class="danger"> danger </button>
+            <button id="alert" class="alert"> alert </button>
+        </div>
+        <h2 class="c">custom</h2>
+        <div class="row f fw">
+            <input id="width" type="text" placeholder="enter width px rem em % ..">
+            <input id="height" type="text" placeholder="enter height px rem em % ..">
+            <input id="color" type="text" placeholder="enter text color css">
+            <input id="bgColor" type="text" placeholder="enter background color css">
+            <input id="timeout" type="number" min="0" max="100" placeholder="enter timeout in seconds">
+            <select name="closeable" id="closeable">
+                <option disabled selected value=""> select closing option </option>
+                <option value="true">yes</option>
+                <option value="false">no</option>
+            </select>
+            <select name="position" id="position">
+                <option value="top-right" selected>top-right</option>
+                <option value="top-left">top-left</option>
+                <option value="bottom-right">bottom-right</option>
+                <option value="bottom-left">bottom-left</option>
+            </select>
+            
+        </div>
+        <button id="custom" class="c primary">show notification</button>
+
+    </div>
+
+    
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>
