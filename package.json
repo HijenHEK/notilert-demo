@@ -2,13 +2,14 @@
   "name": "notilert-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": "true",
   "scripts": {
-    "build": "parcel ./src/index.html"
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "parcel": "^1.12.4"
+  "devDependencies": {
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0"
   }
 }
